@@ -102,6 +102,7 @@ f> segmentationfault.asm
     -> !! Segmentation fault. Please fix the code.
 
 Memory format:
+
     +----------+-----------+-----------+-----------+-----------+  
     |  Address | Value(+0) | Value(+4) | Value(+8) | Value(+c) |  
     +----------+-----------+-----------+-----------+-----------+  
@@ -126,6 +127,7 @@ g> test01_sum.asm  ; This program stores the sum of elements of an array and sto
                                 Array ends here      sum(final 17)
 
 h> test02_min.asm    ; This program finds the minimum value in an array
+
     Memory content before run:
       Address:                         Array starts Here
         ↓                                   ↓
@@ -143,6 +145,7 @@ h> test02_min.asm    ; This program finds the minimum value in an array
                                 Array ends here      min(now set to 4)
 
 i> test03_max.asm    ; This program finds the maximum value in an array
+
     Memory content before run:
       Address:               Array starts Here
         ↓                         ↓
@@ -160,6 +163,7 @@ i> test03_max.asm    ; This program finds the maximum value in an array
                      Array ends here      min(now set to 100)
 
 j> test04_mean.asm
+
     Memory content before run:
       Address:               Array starts Here
         ↓                         ↓
@@ -179,6 +183,7 @@ j> test04_mean.asm
         Array ends here      min(now set to 6)
 
 k> bubblesort.asm
+
     Memory content before run:
       Address:    Array starts Here
         ↓            ↓
@@ -200,6 +205,7 @@ k> bubblesort.asm
     ; We can observe that the array has been sorted in ascending order successfully
 
 l> test05_median.asm
+
     Memory content before run:
       Address:                                        Array starts Here
         ↓                                                ↓
