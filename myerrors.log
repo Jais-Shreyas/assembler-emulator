@@ -1,0 +1,14 @@
+Log code generated in: myerrors.log
+Error at line 5 -- "ldc 098sffg" -- No such label: "098sffg"
+Error at line 6 -- "ldc var_not_present" -- No such label: "var_not_present"
+Error at line 7 -- "ldc" -- Missing Operands
+Error at line 12 -- "adc 98yfebf" -- No such label: "98yfebf"
+Error at line 13 -- "adc var_not_present" -- No such label: "var_not_present"
+Error at line 14 -- "adc" -- Missing Operands
+Error at line 19 -- "ldl 0d9234" -- No such label: "0d9234"
+Error at line 20 -- "ldl var_not_present" -- No such label: "var_not_present"
+Error at line 21 -- "x: ldc" -- Operands missing.
+Error at line 23 -- "a2sp 0x100" -- No operand should be there.
+Error at line 26 -- "brz" -- Missing Operands
+Error at line 28 -- "add 5" -- No operand should be there.
+Error at line 30 -- "x: data 5" -- Multiple Declaration of the same label "x".

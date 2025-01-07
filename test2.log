@@ -1,0 +1,11 @@
+Log code generated in: test2.log
+Warning! HALT is missing in the code.
+Error at line 2 -- "label:" -- Multiple Declaration of the same label "label".
+Error at line 3 -- "br nonesuch" -- No such label: "nonesuch"
+Error at line 4 -- "ldc 08ge" -- No such label: "08ge"
+Error at line 5 -- "ldc" -- Missing Operands
+Error at line 6 -- "add 5" -- No operand should be there.
+Error at line 7 -- "ldc 5, 6" -- Multiple Operands present.
+Error at line 8 -- "0def:" -- Invalid Label Name: "0def".
+Error at line 9 -- "fibble" -- Invalid Mnemonic.
+Error at line 10 -- "0def" -- Invalid Mnemonic.
